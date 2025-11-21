@@ -104,7 +104,26 @@
 chmod 777 filename
 chmod 777 sai
 
----
+## 🌐 Networking
+
+| Command | Description |
+|--------|-------------|
+| `ifconfig -a` | Show all network interface details |
+| `ping <host>` | Test connectivity (ICMP) |
+| `whois <domain>` | WHOIS lookup for domain information |
+| `host <domain>` | DNS lookup |
+| `netstat -ntplu` | List listening ports with process & protocol info |
+| `wget <url>` | Download files from the internet |
+| `hostname -I` | Display local IP addresses |
+
+
+
+
+
+
+
+
+
 
 
 
