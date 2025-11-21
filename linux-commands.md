@@ -87,13 +87,14 @@
 ---
 
 ## 🔧 Process Management
-| Command | Description |
-|--------|------------|
-| `ps -ef` | Show processes |
-| `ps -ef | grep redis` | Search process |
-| `kill <pid>` | Kill process |
-| `kill -9 <pid>` | Force kill |
-| `program &` | Run in background |
+| Command | Description | Syntax | Example |
+|--------|------------|--------|---------|
+| ps -ef | Display process information | `ps -ef \| grep <process-name>` | `ps -ef \| grep redis` |
+| top | Display and manage top processes | `top` | `top` |
+| htop | Interactive process viewer | `htop` | `htop` |
+| kill | Kill process by PID | `kill <pid>` | `kill 1234` |
+| kill -9 | Forcefully kill process | `kill -9 <pid>` | `kill -9 1234` |
+| program & | Start program in background | `program &` | `program &` |
 
 ---
 
@@ -101,14 +102,11 @@
 ```bash
 4 = Read, 2 = Write, 1 = Execute
 chmod 777 filename
+chmod 777 sai
 
-| Command          | Description       |
-| ---------------- | ----------------- |
-| `ifconfig -a`    | Interface details |
-| `ping <host>`    | Test connectivity |
-| `whois <domain>` | WHOIS lookup      |
-| `host <domain>`  | DNS lookup        |
-| `netstat -ntplu` | Ports listening   |
-| `wget <url>`     | Download file     |
-| `hostname -I`    | Show IPs          |
+## 🌐 Networking Commands
+
+
+
+
 
