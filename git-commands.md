@@ -24,6 +24,7 @@
 | `git status` | Check modified files |
 | `git log` | Check commit history |
 
+
 **Example**
 ```bash
 mkdir my-repo
@@ -32,8 +33,7 @@ git init
 
 ---
 
-
-# 🧰 Git Remote Commands
+### 📂 Repository Setup
 
 | Command | Description |
 |--------|-------------|
@@ -43,3 +43,7 @@ git init
 | `git remote set-url <name> <url>` | Change remote URL |
 | `git push origin master` | Push to master branch |
 | `git clone <repo-url>` | Clone remote repository |
+
+
+
+
