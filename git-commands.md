@@ -30,6 +30,9 @@ mkdir my-repo
 cd my-repo
 git init
 
+---
+
+
 # 🧰 Git Remote Commands
 
 | Command | Description |
