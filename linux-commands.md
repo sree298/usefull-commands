@@ -77,6 +77,15 @@
 
 ---
 
+## 🔐 User & Password Management
+| Command | Description |
+|--------|-------------|
+| `sudo passwd <username>` | Change user password |
+| `sudo passwd root` | Set root password |
+| `sudo su` | Switch to root user |
+
+---
+
 ## 🗜 Archiving (TAR)
 | Command | Description |
 |--------|-------------|
