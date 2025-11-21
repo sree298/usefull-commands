@@ -101,3 +101,14 @@
 ```bash
 4 = Read, 2 = Write, 1 = Execute
 chmod 777 filename
+
+| Command          | Description       |
+| ---------------- | ----------------- |
+| `ifconfig -a`    | Interface details |
+| `ping <host>`    | Test connectivity |
+| `whois <domain>` | WHOIS lookup      |
+| `host <domain>`  | DNS lookup        |
+| `netstat -ntplu` | Ports listening   |
+| `wget <url>`     | Download file     |
+| `hostname -I`    | Show IPs          |
+
