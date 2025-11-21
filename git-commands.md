@@ -29,3 +29,14 @@
 mkdir my-repo
 cd my-repo
 git init
+
+# 🧰 Git Remote Commands
+
+| Command | Description |
+|--------|-------------|
+| `git remote -v` | Show remote URLs |
+| `git remote add <name> <url>` | Add remote |
+| `git remote rename <old> <new>` | Rename remote |
+| `git remote set-url <name> <url>` | Change remote URL |
+| `git push origin master` | Push to master branch |
+| `git clone <repo-url>` | Clone remote repository |
