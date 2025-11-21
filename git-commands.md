@@ -123,9 +123,6 @@ git push origin master
 
 ---
 
-### If you want a separator before it:
-```markdown
----
 
 ## 🚀 Git Push Example (Complete Workflow)
 
