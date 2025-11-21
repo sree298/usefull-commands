@@ -1,6 +1,6 @@
 # Important Linux Commands
 
-## File & Directory Commands
+## 📁 File & Directory Commands
 ```bash
 ls          # list files
 pwd         # print working directory
