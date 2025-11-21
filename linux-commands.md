@@ -99,14 +99,14 @@
 ---
 
 ## 🔐 File Permissions
-```bash
+
 4 = Read, 2 = Write, 1 = Execute
 chmod 777 filename
 chmod 777 sai
 
 ---
 
-## 🌐 Networking Commands
+
 
 
 
