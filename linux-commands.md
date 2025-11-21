@@ -80,6 +80,7 @@
 ## 🔐 User & Password Management
 | Command | Description |
 |--------|-------------|
+| `useradd` | Create user | `useradd -g dev -d /home/john john` |
 | `sudo passwd <username>` | Change user password |
 | `sudo passwd root` | Set root password |
 | `sudo su` | Switch to root user |
