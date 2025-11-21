@@ -116,6 +116,96 @@ chmod 777 sai
 | `wget <url>` | Download files from the internet |
 | `hostname -I` | Display local IP addresses |
 
+## 🍱 YUM / RPM Package Management
+
+| Command             | Description     |
+| ------------------- | --------------- |
+| `yum search <pkg>`  | Search package  |
+| `yum install <pkg>` | Install package |
+| `yum remove <pkg>`  | Remove package  |
+| `rpm -i file.rpm`   | Install rpm     |
+
+## 🔍 File & Text Search Commands
+
+| Command                      | Description        |
+| ---------------------------- | ------------------ |
+| `grep <key> <file>`          | Search keyword in file |
+| `grep -r <key> <dir>`        | Recursive search in directory |
+| `grep -lr <key> <dir>`       | List only matching file names |
+| `locate <name>`              | Find file by name (uses DB) |
+| `find /home -name 'prefix*'` | Find file by name pattern   |
+| `find /home -size +100M`     | Find files larger than 100MB |
+
+## 🔐 SSH Commands
+
+| Command                   | Description   |
+| ------------------------- | ------------- |
+| `ssh host`                | Connect to remote host |
+| `ssh user@host`           | Login as specific user |
+| `ssh -p <port> user@host` | Connect using custom port |
+
+## 🚚 File Transfer (SCP / Rsync)
+
+| Command                             | Description        |
+| ----------------------------------- | ------------------ |
+| `scp file.txt server:/tmp`          | Copy file to remote server |
+| `scp -r server:/var/www /tmp`       | Copy directory from remote to local |
+| `rsync -avz /home server:/backups/` | Sync directory efficiently for backup |
+
+## ✏️ Text Processing Commands
+
+| Command               | Description        |
+| --------------------- | ------------------ |
+| `grep -i 'Pass' file` | Case-insensitive search in file |
+| `awk '{print $9}'`    | Extract 9th column from input   |
+| `sed`                 | Stream editor for search & replace |
+
+## 🧰 Other Useful Commands
+
+| Command                         | Description            |
+| ------------------------------- | ---------------------- |
+| `chown ubuntu:ubuntu /tmp/test` | Change file owner & group |
+| `nslookup google.com`           | DNS lookup / test      |
+| `telnet <ip> <port>`            | Check port connectivity |
+| `curl -av <ip:port>`            | Test connectivity / verbose |
+| `history`                       | Show last executed commands |
+
+## 📋 Troubleshooting Checklist
+
+1. **Check server status**
+   - `systemctl status <service>`
+   - `uptime`
+   - `top` / `htop`
+   - `free -m`
+   - `df -h`
+
+2. **Check connectivity between servers**
+   - `ping <server>`
+   - `telnet <ip> <port>`
+   - `nc -zv <ip> <port>`
+   - `ssh user@host`
+
+3. **Check application status**
+   - `systemctl status <app>`
+   - `ps -ef | grep <app>`
+   - `curl -I http://<ip>:<port>`
+
+4. **Verify port listening**
+   - `netstat -ntplu`
+   - `ss -tulnp`
+   - `lsof -i :<port>`
+
+5. **Test from same node**
+   - `curl -I http://localhost:<port>`
+   - `telnet localhost <port>`
+   - `nc -zv localhost <port>`
+
+6. **Review logs**
+   - `tail -f /var/log/messages`
+   - `tail -f /var/log/syslog`
+   - `tail -f /var/log/<app>.log`
+
+
 
 
 
