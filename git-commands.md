@@ -124,16 +124,6 @@ git push origin master
 ---
 
 
-## 🚀 Git Push Example (Complete Workflow)
-
-```bash
-mkdir demo-repo
-cd demo-repo
-git init
-git add test.txt
-git commit -m "initial commit"
-git remote add origin <github-url>
-git push origin master
 
 
 
