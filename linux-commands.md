@@ -87,6 +87,54 @@
 
 ---
 
+## 👤 Check Users & Groups in Ubuntu
+
+### 🔐 User Information Commands
+
+| Command | Description |
+|--------|-------------|
+| `whoami` | Show current logged-in user |
+| `who` | Show currently logged-in users |
+| `w` | Show online users with details |
+| `id <username>` | Show UID, GID, and group info for user |
+| `groups` | Show groups of current user |
+| `groups <username>` | Show groups for specific user |
+
+---
+
+### 👥 List All Users
+| Command | Description |
+|--------|-------------|
+| `cat /etc/passwd` | Show all users |
+| `cut -d: -f1 /etc/passwd` | Show only usernames |
+
+---
+
+### 🧑‍🤝‍🧑 Group Information Commands
+| Command | Description |
+|--------|-------------|
+| `cat /etc/group` | Show all groups |
+| `cut -d: -f1 /etc/group` | Show group names only |
+
+---
+
+### 🛠 User & Group Management (Optional)
+| Command | Description | Example |
+|--------|-------------|---------|
+| `groupadd <group>` | Create a group | `groupadd dev` |
+| `usermod -aG <group> <user>` | Add user to group | `usermod -aG dev ubuntu` |
+
+---
+
+### 📄 Example Usage
+```
+whoami 
+groups ubuntu 
+id ubuntu
+cat /etc/passwd
+cat /etc/group
+```
+
 ## 🗜 Archiving (TAR)
 | Command | Description |
 |--------|-------------|
