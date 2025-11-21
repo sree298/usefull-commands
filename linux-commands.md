@@ -23,10 +23,10 @@
 | cp | Copy file | `cp file1 file2` | `cp test4.txt test44.txt` |
 | mv | Move/Rename file | `mv <src> <dest>` | `mv future tech` |
 | ln -s | Create symbolic link | `ln -s /path/file link` | `ln -s /usr/bin/python my-python` |
-| cat | View file content | `cat <file>` | `cat future-tech` |
-| less | Browse file | `less <file>` | `less future-tech` |
-| head | First 10 lines | `head <file>` | `head future-tech` |
-| tail | Last 10 lines | `tail <file>` | `tail future-tech` |
+| cat | View file content | `cat <file>` | `cat sree-tech` |
+| less | Browse file | `less <file>` | `less sree-tech` |
+| head | First 10 lines | `head <file>` | `head sree-tech` |
+| tail | Last 10 lines | `tail <file>` | `tail sree-tech` |
 
 ---
 
