@@ -17,6 +17,7 @@
 | ls -lrth | Long listing readable format | `ls -lrth` | `ls -lrth` |
 | touch | Create file | `touch <file>` | `touch test.txt` |
 | mkdir | Create directory | `mkdir <dir>` | `mkdir /home/ubuntu/web-colour` |
+|`mkdir -p` | Create parent directories if not existing | `mkdir -p <dir-path>` | `mkdir -p /home/ubuntu/project/src` 
 | rm | Remove file | `rm <file>` | `rm test.txt` |
 | rm -rf | Force delete | `rm -rf <dir/file>` | `rm -rf web-colour` |
 | cp | Copy file | `cp file1 file2` | `cp test4.txt test44.txt` |
