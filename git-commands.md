@@ -117,6 +117,7 @@ cd demo-repo
 git init
 git add test.txt
 git commit -m "initial commit"
+git branch -M main
 git remote add origin <github-url>
 git push origin master
 ---
