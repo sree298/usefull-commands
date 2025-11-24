@@ -174,6 +174,56 @@ Press → **Enter**
 
 #### GIT UNDO (STASH, CHECKOUT, RESET, REVERT)
 
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/workstations.png" />
+
+### GIT REST - -> Remove Last commit changes from local repo
+#### Types of REST
+1. soft
+2. mixed
+3. hard
+#### Before reset
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/beforerest.png" />
+
+#### After soft reset (Only changes removed on local repo)
+
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/aferrest.png" />
+
+
+#### After mixed reset (changes removed on local repo + staging area)
+
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/aftermixed.png" />
+
+
+#### After hard reset (changes removed on local repo + staging area + working area)
+
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/afterhard.png" />
+
+## GIT REVERT
+
+**`git revert` → Remove the last commit changes from remote repository**
+
+### Key points:
+1. It is a **safe way** to remove commit changes from a remote repo.
+2. Because the **removed commit ID still exists in Git logs**, and a **new commit** will be added for justification of removal.
+   - (History is preserved — nothing is lost)
+
+---
+
+### Before REVERT
+## GIT REVERT Steps
+
+```bash
+git log --decorate --oneline --graph    # Check commit history
+git revert 400c46d                      # Revert the selected commit ID
+git status
+vi index.html                           # Resolve conflicts (if any)
+git add index.html                      # Add resolved file
+git revert --continue                   # Continue revert process
+git log --decorate --oneline --graph    # Verify revert commit history
+git push origin master                  # Push reverted changes to remote
+
+
+
 
 
 
