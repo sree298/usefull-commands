@@ -156,6 +156,23 @@ git branch -D feature    # Delete branch on local repo
 ```bash
 git push origin --delete feature    # Delete branch on remote repo
 ```
+### GIT MERGE Vs REBASE
+
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/worstation1.png" />
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/mergerrebase.png" />
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/rebaseedit.png" />
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/rebaseedit1.png" />
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/rebaseedit2.png" />
+
+### Save and Exit Commands in Editor (nano)
+
+Press → **Ctrl + X**  
+Press → **Y**  
+Press → **Enter**
+
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/rebaseedit3.png" />
+
+#### GIT UNDO (STASH, CHECKOUT, RESET, REVERT)
 
 
 
