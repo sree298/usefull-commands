@@ -222,7 +222,6 @@ git revert --continue                   # Continue revert process
 git log --decorate --oneline --graph    # Verify revert commit history
 git push origin master                  # Push reverted changes to remote
 ```
-### GIT REVERT Steps
 
 <img width="750" height="542" alt="Centralized Version Control System" src="../../images/gitrevert.png" />
 <img width="750" height="542" alt="Centralized Version Control System" src="../../images/gitrevert1.png" />
@@ -231,6 +230,81 @@ git push origin master                  # Push reverted changes to remote
 <img width="750" height="542" alt="Centralized Version Control System" src="../../images/gitrevert4.png" />
 
 ### After REVERT
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/afterrevert.png" />
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/afterrevert1.png" />
+
+
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/forkvsclone.png" />
+
+### Git pull vs fetch
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/pullfetch.png" />
+### Git clone vs fork
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/clonefork.png" />
+#### Fork operation will do on GITHUB UI
+
+## GIT DIFF Commands
+
+```bash
+git diff commit-1 commit-2         # Shows the differences between two commit IDs
+git diff <file-name>               # Shows the file-level differences
+git diff master origin/master      # Shows the differences between local and remote branches
+```
+## GIT LOG Commands
+
+```bash
+git log --decorate --oneline --graph   # Shows all commit logs in graph view
+git log -n 2                           # Shows the last 2 commit logs
+git log -p <file-name>                 # Shows commit history and patch details for a specific file
+```
+## GIT TAG Commands
+
+```bash
+git tag                                  # Shows the available tag list
+git tag <tag-name> <commit-id> -a -m "message"   # Create an annotated tag
+Example:
+git tag V1.0 49b25b4 -a -m "May-2022 release"
+git show-ref --tags                      # Shows tag references and commit mapping
+git show <tag-name>                      # Shows the tag commit history
+git push origin --tags                   # Push all tags to remote server
+git push origin V1.0                     # Push specific tag to remote server
+git pull origin --tags                   # Pull all tags from remote server
+git checkout tags/<tag_name> -b <branch_name>   # Checkout from a tag to a new branch
+git tag -d <tag-name>                    # Delete tag locally
+```
+
+## GIT AMEND Practice Example
+
+```bash
+mkdir amend-practice
+cd amend-practice
+git init
+echo "Master line-1" >> index.html
+git status
+git add index.html
+git status
+git commit -m "M1"
+git status
+git log --decorate --oneline --graph
+echo "Master line-2" >> index.html
+git status
+git add index.html
+git status
+git commit --amend -m "M1"
+OR
+git commit --amend -m "M1-A"     # Modify commit message
+git status
+git log --decorate --oneline --graph
+```
+## GIT SQUASH
+
+### Using Merge (Squash commits of a feature branch into a single commit)
+
+```bash
+git merge --squash feature
+git rebase -i HEAD~3
+
+
+
 
 
 
