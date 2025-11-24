@@ -95,10 +95,7 @@ git log --decorate --oneline --graph
 ------------------------------
 echo "Feature line-1" >> nginx.conf
 git status
-```
-#### This command will not work for newly created files.
-```bash
-git commit -am "F1" 
+git commit -am "F1"  #--> This command will not work for newly created files.
 git add nginx.conf
 git status
 git commit -m "F1"
