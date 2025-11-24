@@ -136,6 +136,28 @@ Press → **Enter**
 
 <img width="750" height="542" alt="Centralized Version Control System" src="../../images/merge3.png" />
 
+#### Fast Forward Merge
+
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/fastforward.png" />
+
+#### Squash and Merge 
+
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/Squash.png" />
+
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/Squash2.png" />
+
+### Delete Git Branch
+
+#### Delete branch in local repository
+```bash
+git branch -D feature    # Delete branch on local repo
+```
+#### Delete branch in remote repository
+```bash
+git push origin --delete feature    # Delete branch on remote repo
+```
+
+
 
 
 
