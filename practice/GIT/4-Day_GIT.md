@@ -233,14 +233,18 @@ git push origin master                  # Push reverted changes to remote
 <img width="750" height="542" alt="Centralized Version Control System" src="../../images/afterrevert.png" />
 <img width="750" height="542" alt="Centralized Version Control System" src="../../images/afterrevert1.png" />
 
+### Git pull vs fetch
+
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/pullfetch.png" />
+
+### Git clone vs fork
+#### Fork operation will do on GITHUB UI
+
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/clonefork.png" />
 
 <img width="750" height="542" alt="Centralized Version Control System" src="../../images/forkvsclone.png" />
 
-### Git pull vs fetch
-<img width="750" height="542" alt="Centralized Version Control System" src="../../images/pullfetch.png" />
-### Git clone vs fork
-<img width="750" height="542" alt="Centralized Version Control System" src="../../images/clonefork.png" />
-#### Fork operation will do on GITHUB UI
+
 
 ## GIT DIFF Commands
 
