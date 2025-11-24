@@ -222,6 +222,15 @@ git revert --continue                   # Continue revert process
 git log --decorate --oneline --graph    # Verify revert commit history
 git push origin master                  # Push reverted changes to remote
 ```
+### GIT REVERT Steps
+
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/gitrevert.png" />
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/gitrevert1.png" />
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/gitrevert2.png" />
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/gitrevert3.png" />
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/gitrevert4.png" />
+
+### After REVERT
 
 
 
