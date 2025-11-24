@@ -15,6 +15,7 @@ git status
 git add index.html
 git status
 git commit -m "M1"
+git branch -M main
 git status
 git log --decorate --oneline --graph
 -------------------------------------------
