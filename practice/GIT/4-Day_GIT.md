@@ -128,13 +128,15 @@ git push origin feature
 
 <img width="750" height="542" alt="Centralized Version Control System" src="../../images/merge2.png" />
 
-<img width="750" height="542" alt="Centralized Version Control System" src="../../images/merge3.png" />
-
 ### Save and Exit Commands in Editor (nano)
 
 Press → **Ctrl + X**  
 Press → **Y**  
 Press → **Enter**
+
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/merge3.png" />
+
+
 
 
 
