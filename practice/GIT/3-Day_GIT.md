@@ -153,5 +153,8 @@ git remote -v
 ```bash
 git push origin main
 ```
+### Types of Environments
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/typesenv.png" />
+
 
 
