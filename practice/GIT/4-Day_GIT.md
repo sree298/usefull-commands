@@ -206,6 +206,27 @@ Press → **Enter**
    - (History is preserved — nothing is lost)
 
 ---
+## GIT REVERT on Remote Repo (Important Note)
+
+- `git revert` does **NOT remove** the old commit from history.
+- Instead, it creates a **new commit**: `Revert "<message>"`.
+- The old commit (ex: `MC1`) will still show in **GitHub commit history**.
+- But the latest commit (`Revert "MC1"`) **undoes the changes** from `MC1`.
+
+### Example sequence
+
+MC1          → Adds nginx.conf  
+Revert "MC1" → Deletes nginx.conf (undoes MC1)
+
+Result:  
+- History shows: `Revert "MC1"`, `MC1`, `F2`, `F1`, `M2`, `M1`  
+- But final code is **as if MC1 never happened**.
+If you **want MC1 to totally disappear from history**, that’s when we use:
+```bash
+- git reset --hard <commit-id>
+- git push -f origin main
+```
+…but that is **dangerous in team projects**.
 
 ### Before REVERT
 
