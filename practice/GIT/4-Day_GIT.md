@@ -66,11 +66,11 @@ git push origin main
 | `git squash` | Combine multiple commits into a single commit |
 | `git cherry-pick` | Apply a specific commit from another branch |
 | `git amend` | Modify the most recent commit |
-### GIT-MERGE - - > Copy code from feature branch to master branch
+### GIT-MERGE - - > Copy code from feature branch to mainbranch
 #### DEVELOPER-2
 ```bash
 git config --global --list
-git clone -b master git@github.com:sree298/merge-practices.git
+git clone -b main git@github.com:sree298/merge-practices.git
 ```
 #### IN GIT CLONE:
 1. Not required to do git init. it will create local repo by default.
