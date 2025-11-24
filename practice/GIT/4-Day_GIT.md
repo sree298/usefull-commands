@@ -325,7 +325,7 @@ git stash drop     # Remove a specific stash entry
 
 ```bash
 git cherry-pick <commit-id>     # Apply a specific commit from another branch to the current branch
-
+```
 
 
 
