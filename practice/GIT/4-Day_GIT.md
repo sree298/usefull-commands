@@ -221,7 +221,7 @@ git add index.html                      # Add resolved file
 git revert --continue                   # Continue revert process
 git log --decorate --oneline --graph    # Verify revert commit history
 git push origin master                  # Push reverted changes to remote
-
+```
 
 
 
