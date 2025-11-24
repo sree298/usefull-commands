@@ -306,6 +306,26 @@ git log --decorate --oneline --graph
 ```bash
 git merge --squash feature
 git rebase -i HEAD~3
+```
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/sqash1.png" />
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/sqash2.png" />
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/sqash3.png" />
+
+## GIT STASH Commands
+
+```bash
+git stash          # Move uncommitted changes to hidden stash area
+git stash pop      # Restore stashed files and remove from stash list
+git stash list     # Check all stash entries
+git stash drop     # Remove a specific stash entry
+```
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/STASH.png" />
+
+## GIT CHERRY-PICK
+
+```bash
+git cherry-pick <commit-id>     # Apply a specific commit from another branch to the current branch
+
 
 
 
