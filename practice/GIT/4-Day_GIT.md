@@ -210,6 +210,10 @@ Press → **Enter**
 ---
 
 ### Before REVERT
+
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/beforerevert1.png" />
+<img width="750" height="542" alt="Centralized Version Control System" src="../../images/beforerevert2.png" />
+
 ## GIT REVERT Steps
 
 ```bash
