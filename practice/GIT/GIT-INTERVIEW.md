@@ -59,7 +59,7 @@
 |---------|-------------|----------|
 | **git push** | Upload local repo changes to remote repo. | `git push <remote_name> <branch_name>` |
 | | | `git push origin master` |
-| **git clone** | Create a local copy of a remote repository. | `git clone <repository_url>` |
+| **git clone** | Used to create a copy of a remote Git repository on local machine. This allows you to start working with the repository and make changes to it locally. | `git clone <repository_url>` |
 | | | `git clone https://github.com/exampleuser/example-repo.git` |
 | **git fork** | Copy remote repo from one account to another. | Done from GitHub UI |
 
@@ -79,7 +79,7 @@
 | Command | Description | Example |
 |---------|-------------|----------|
 | **git rm** | Remove files from working directory. | `git rm <file>` |
-| **git fetch** | Downloads changes from remote repo to local repo without merging. | `git fetch` <br> `git fetch origin master` |
+| **git fetch** | Downloads changes from a remote repo to the local repo **without merging** into the current local branch.<br><br>• Updates the local copy of remote branch(es) but **does not modify the working directory or local branches**.<br>• After fetching, we can inspect the changes using commands like `git log` or `git diff`, and then decide how to merge the changes into local branches. | `git fetch` <br> `git fetch origin master` |
 | **git pull** | Fetch + Merge from remote repo to current branch. | `git pull` <br> `git pull origin master` |
 
 ---
