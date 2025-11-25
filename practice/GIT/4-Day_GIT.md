@@ -223,10 +223,19 @@ Result:
 - But final code is **as if MC1 never happened**.
 If you **want MC1 to totally disappear from history**, that’s when we use:
 ```bash
-- git reset --hard <commit-id>
-- git push -f origin main
+git reset --hard <commit-id>
+git push -f origin main
+OR
+git push origin main --force
 ```
 …but that is **dangerous in team projects**.
+## ⚠️ Important Warning
+Force push rewrites history and can break others' clones if they have latest commits.
+**If multiple developers are involved, tell them to run:**
+```bash
+git fetch
+git reset --hard origin/main
+```
 
 ### Before REVERT
 
